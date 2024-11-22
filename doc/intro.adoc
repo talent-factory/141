@@ -1,0 +1,101 @@
+= Leitfaden zu AsciiDoc
+:author: Daniel Senften
+:email: daniel.senften@gibb.ch
+
+:description: AsciiDoc ist leicht zu lernen und leistungsstark.
+
+:imagesdir: images/
+
+:source: https://www.adoc-studio.app/de/blog/asciidoc-guide
+:quick-reference: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+:writethedocs: https://www.writethedocs.org/guide/writing/asciidoc/
+
+== Was ist AsciiDoc?
+
+AsciiDoc ist eine leichte, für Menschen lesbare, Auszeichnungssprache. Sie wurde entwickelt, um das Schreiben von
+technischen Dokumenten, Büchern, Blogs und sogar Folien zu vereinfachen. Das komplette Handbuch zu AsciiDoc
+ist an {quick-reference}[dieser Stelle] zu finden <<manual>>.
+
+AsciiDoc wurde 2002 von Stuart Rackham entwickelt, einem Softwareentwickler, der den Bedarf an einer leichten,
+einfachen Textauszeichnungssprache erkannte, die in verschiedene Ausgabeformate wie HTML, PDF und DocBook
+konvertiert werden kann. AsciiDoc konzentriert sich auf die Struktur und den Inhalt und nicht auf die Formatierung.
+Dadurch ermöglicht sie den Autoren, gut strukturierte Dokumente zu erstellen, ohne dass komplexe
+Formatierungswerkzeuge erforderlich sind.
+
+> Sie schreiben ein AsciiDoc-Dokument genauso, wie Sie ein normales Textdokument schreiben würden. Es gibt keine
+> Markup-Tags oder seltsame Formatbezeichnungen. AsciiDoc-Dateien sind so konzipiert, dass sie direkt betrachtet,
+> bearbeitet und gedruckt oder in andere Präsentationsformate übersetzt werden können.
+> -- Stuart Rackham, Entwickler von AsciiDoc
+
+
+=== Warum sollten Sie AsciiDoc verwenden?
+
+AsciiDoc gehört zu einer Klasse von Auszeichnungssprachen, die „leichtgewichtig“ sind, weil sie einen
+minimalistischen und leicht lesbaren Ansatz zur Textformatierung bieten wollen. Beispiele für ähnliche
+Sprachen sind Markdown und reStructuredText. Was AsciiDoc auszeichnet, ist die Fähigkeit, komplexe
+Inhaltsstrukturen zu handhaben und dabei einfach zu erlernen und zu benutzen zu sein.
+Ein konkretes Beispiel: Im direkten Vergleich mit Markdown und LaTeX benötigt AsciiDoc die wenigstens
+Zeichen, um einfache Syntaxelemente im Text einzufügen.
+
+Während Markdown eine bekanntere Auszeichnungssprache ist, bietet AsciiDoc mehrere Vorteile,
+wenn es um komplexere Schreibaufgaben geht:
+
+.Vorteile von AsciiDoc
+image::asciidoc-benefits_de.png[width=80%,align=center]
+
+** *Standardisiert*: AsciiDoc ist auf dem Weg zur Standardisierung, wobei die AsciiDoc Working Group der
+Eclipse Foundation die Bemühungen anführt. Andere Auszeichnungssprachen wie Markdown verfügen nicht über
+einen solchen universellen Standard.
+
+** *Viele Funktionen von Haus aus*: AsciiDoc ist eine voll funktionsfähige Auszeichnungssprache ohne Dialekte.
+Im Gegensatz dazu erfordert Markdown Erweiterungen für Funktionen wie Tabellen, Fussnoten oder Zitate,
+die nur in Dialekten wie MultiMarkdown vorhanden sind. Das Problem: Die Erweiterung der Markdown-Syntax
+kann zu Kompatibilitätsproblemen führen, wenn andere Benutzer nicht die gleichen Add-ons installiert haben.
+
+** *Verschiedene Ausgabeformate*: Wenn Sie Ihre Inhalte in verschiedenen Formaten (HTML, PDF, etc.)
+veröffentlichen müssen, bietet AsciiDoc eine nahtlose Möglichkeit, dies mit minimaler Umformatierung zu tun.
+Einige Anwendungen erlauben Ihnen sogar, ein einziges Stylesheet für alle Formate zu verwenden.
+
+** *Versionierung und Automatisierung*: AsciiDoc lässt sich nahtlos in _Docs-as-Code-Workflows_ integrieren
+und ist damit ideal für Teams, die Versionskontrollsysteme wie Git und CI/CD-Pipelines verwenden.
+Seine Kompatibilität mit Git und anderen Werkzeugen macht es perfekt für Projekte, bei denen mehrere
+Personen an der gleichen Dokumentation arbeiten.
+
+
+=== Wann sollten Sie AsciiDoc verwenden?
+
+.AsciiDoc Anwendungsfälle
+image::asciidoc-use-cases_de.png[width=80%,align=center]
+
+AsciiDoc wird häufig für technische Dokumentationen verwendet und ist daher ideal für die Erstellung von
+Softwareanleitungen, API-Handbüchern und Codedokumentation. Sein strukturiertes Format hilft,
+komplexe Informationen klar zu organisieren. Entwickler und technische Redakteure bevorzugen AsciiDoc
+wegen seiner Fähigkeit, detaillierte Inhalte effizient zu verwalten.
+
+Eine weitere häufige Anwendung von AsciiDoc ist das Schreiben von Büchern und E-Books, insbesondere zu
+technischen oder akademischen Themen. Die Autoren finden, dass die einfache Syntax es ihnen erlaubt,
+sich auf die Erstellung von Inhalten zu konzentrieren und professionelle Qualität zu produzieren,
+ohne sich mit der Formatierung zu verzetteln. Auch für Blogs und Websites sowie für Folien und
+Präsentationen wird AsciiDoc gerne verwendet. Wie Sie sehen können, sind die Anwendungsfälle endlos.
+
+
+== Erste Schritte mit AsciiDoc
+
+AsciiDoc ist besonders stark, wenn es darum geht, Inhalte auf strukturierte Weise zu organisieren.
+Sie können grosse, komplexe Dokumente erstellen, indem Sie sie in kleinere Abschnitte oder Kapitel
+unterteilen, die separat eingefügt und verwaltet werden können. Schauen wir uns einige der
+Schlüsselelemente von AsciiDoc an:
+
+*Dokumententitel und Metadaten*: Jedes AsciiDoc-Dokument beginnt typischerweise mit einem Titel und optionalen
+Metadaten, die helfen, die Struktur und das Aussehen des Dokuments zu definieren.
+
+* Dokumententitel: Der Titel wird ganz oben durch ein einzelnes Gleichheitszeichen (`=`) definiert.
+
+* Metadaten: Metadaten wie Autor, Revisionsnummer und Datum können unterhalb des Titels hinzugefügt werden.
+
+.AsciiDoc Anwendungsfälle
+image::asciidoc-syntax-overview_de.png[width=80%,align=center]
+
+== Referenzen
+
+* [[[manual]]] {quick-reference}[Offizielles] Handbuch zu AsciiDoc
