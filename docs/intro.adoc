@@ -8,6 +8,7 @@
 
 :source: https://www.adoc-studio.app/de/blog/asciidoc-guide
 :quick-reference: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+:jetbrains-plugin: https://plugins.jetbrains.com/plugin/7391-asciidoc
 :writethedocs: https://www.writethedocs.org/guide/writing/asciidoc/
 
 == Was ist AsciiDoc?
