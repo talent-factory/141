@@ -1,0 +1,63 @@
+== Projektauftrag
+:author: Daniel Senften
+:email: daniel.senften@gibb.ch
+:imagesdir: images/
+
+Die hier aufgeführten Anforderungen stammen aus dem Originaldokument des Modulautors, Boris Däppen. Der Text wurde
+nicht `1:1` übernommen, sondern an diversen Stellen zusammengefasst und/oder vereinfacht, um das eigentliche Ziel
+dieses Module nicht aus den Augen zu verlieren.
+
+=== Vision Kunde
+
+_Ogham_ ist ein Anbieter für Datenablagen. Sie sind mit einem Projekt beauftragt, um den Prototypen eines
+Produktes in Betrieb zu nehmen. Sie treten dabei gegen andere Projektgruppen an. Ziel ist die Evaluierung
+und ein Vergleich verschiedener Datenbank-Technologien für das zukünftige finale Projekt. Das Endprodukt
+soll als Webseite betrieben werden, es wird mit einer Last von max. 50 Webanfragen pro Sekunde gerechnet.
+
+*Die wichtigsten Meilensteine sind*:
+
+** Entgegennahme, Interpretation Auftrag
+
+** Wahl der Technologie / Datenbank
+
+** Installation
+
+** Design: Datenanalyse, ERD
+
+** Schema erstellen
+
+** Berechtigungen vergeben
+
+** Mapping, Transformation, Import
+
+** Verifikation der Daten
+
+** Zwei aus fünf weiterführenden Arbeiten:
+    *** Anbindung Webapplikation
+    *** Einrichtung Backup
+    *** Performanztests
+    *** Verfügbarkeit, Monitoring
+    *** Einbinden in eine Netzinfrastruktur
+
+** Installationsdokumentation
+
+** Vortrag
+
+
+=== Daten
+
+==== Struktur
+
+==== Testdaten
+
+==== Datenfelder
+
+==== Entitäten
+
+
+=== Infrastruktur
+
+==== Ablauf und Dokumentation
+
+
+=== Technologie

@@ -1,4 +1,4 @@
-= Leitfaden zu AsciiDoc
+== Leitfaden zu AsciiDoc
 :author: Daniel Senften
 :email: daniel.senften@gibb.ch
 
@@ -11,7 +11,7 @@
 :jetbrains-plugin: https://plugins.jetbrains.com/plugin/7391-asciidoc
 :writethedocs: https://www.writethedocs.org/guide/writing/asciidoc/
 
-== Was ist AsciiDoc?
+=== Was ist AsciiDoc?
 
 AsciiDoc ist eine leichte, für Menschen lesbare, Auszeichnungssprache. Sie wurde entwickelt, um das Schreiben von
 technischen Dokumenten, Büchern, Blogs und sogar Folien zu vereinfachen. Das komplette Handbuch zu AsciiDoc
@@ -29,7 +29,7 @@ Formatierungswerkzeuge erforderlich sind.
 > -- Stuart Rackham, Entwickler von AsciiDoc
 
 
-=== Warum sollten Sie AsciiDoc verwenden?
+==== Warum sollten Sie AsciiDoc verwenden?
 
 AsciiDoc gehört zu einer Klasse von Auszeichnungssprachen, die „leichtgewichtig“ sind, weil sie einen
 minimalistischen und leicht lesbaren Ansatz zur Textformatierung bieten wollen. Beispiele für ähnliche
@@ -63,7 +63,7 @@ Seine Kompatibilität mit Git und anderen Werkzeugen macht es perfekt für Proje
 Personen an der gleichen Dokumentation arbeiten.
 
 
-=== Wann sollten Sie AsciiDoc verwenden?
+==== Wann sollten Sie AsciiDoc verwenden?
 
 .AsciiDoc Anwendungsfälle
 image::asciidoc-use-cases_de.png[width=80%,align=center]
@@ -80,7 +80,7 @@ ohne sich mit der Formatierung zu verzetteln. Auch für Blogs und Websites sowie
 Präsentationen wird AsciiDoc gerne verwendet. Wie Sie sehen können, sind die Anwendungsfälle endlos.
 
 
-== Erste Schritte mit AsciiDoc
+=== Erste Schritte
 
 AsciiDoc ist besonders stark, wenn es darum geht, Inhalte auf strukturierte Weise zu organisieren.
 Sie können grosse, komplexe Dokumente erstellen, indem Sie sie in kleinere Abschnitte oder Kapitel
@@ -97,6 +97,6 @@ Metadaten, die helfen, die Struktur und das Aussehen des Dokuments zu definieren
 .AsciiDoc Anwendungsfälle
 image::asciidoc-syntax-overview_de.png[width=80%,align=center]
 
-== Referenzen
+=== Referenzen
 
 * [[[manual]]] {quick-reference}[Offizielles] Handbuch zu AsciiDoc

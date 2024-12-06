@@ -16,5 +16,7 @@ ifdef::local_git_version[]
 endif::[]
 
 // Hinzufügen aller Dokumente
+include::auftrag.adoc[]
+
 include::asciidoc.adoc[]
 
