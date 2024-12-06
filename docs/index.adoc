@@ -1,0 +1,20 @@
+= Datenbanksystem in Betrieb nehmen
+:doctype: book
+:author: Daniel Senften
+:email: daniel.senften@gibb.ch
+include::locale/attributes-de.adoc[]
+:toc: left
+:icons: font
+:toclevels: 2
+:sectnums:
+:asciidoctor: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+:pdf-theme: themes/pdf-theme.yml
+:title-logo-image: image:images/gibb-logo.png[top=0%, align=left, width=20%]
+
+ifdef::local_git_version[]
+:local-git-version: {local_git_version}
+endif::[]
+
+// Hinzufügen aller Dokumente
+include::intro.adoc[]
+
